@@ -1,0 +1,34 @@
+# Ignore build outputs / executables
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# VS Code folders & configs
+.vscode/
+*.code-workspace
+
+# CMake generated files (if you ever use CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Ignore input/output test files (optional)
+input.txt
+output.txt
+
+# Ignore backups
+*~
+*.bak
+
+# Ignore clang-format temp files
+*.orig
